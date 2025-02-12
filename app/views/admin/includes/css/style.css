@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.sidebar {
+    height: auto; /* Auto height to expand with content */
+    background-color: #343a40;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+}
+
+.sidebar a:hover {
+    background-color: #fff;
+}
+
+.main-content {
+    font-weight: 500;
+    padding: 20px;
+    flex-grow: 1;
+}
